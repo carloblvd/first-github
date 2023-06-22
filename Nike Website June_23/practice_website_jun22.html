@@ -27,7 +27,7 @@
       </nav>
     </section>
     <main>
-      <section class="landing__page">
+      <section id="landing__page">
         <div class="landing__page--row row">
           <h1>Yesterday you said tomorrow. Today just do it.</h1>
           <p class="lp--para">
@@ -37,23 +37,23 @@
         </div>
       </section>
 
-      <section class="Origins">
-        <div class="row">
-          <h2>Origins</h2>
-          <div class="description__wrapper">
-            <p>
+      <section id="origins">
+        <h2>Origins</h2>
+        <div class="row origins__row">
+          <div class="description__wrapper dw--para">
+            <p class="section__description--para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
               fugiat maiores maxime dicta, enim, quo, accusantium debitis sed
               numquam velit cumque possimus distinctio facere sapiente assumenda
               ea obcaecati excepturi doloribus.
             </p>
-            <p>
+            <p class="section__description--para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
               fugiat maiores maxime dicta, enim, quo, accusantium debitis sed
               numquam velit cumque possimus distinctio facere sapiente assumenda
               ea obcaecati excepturi doloribus.
             </p>
-            <p>
+            <p class="section__description--para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
               fugiat maiores maxime dicta, enim, quo, accusantium debitis sed
               numquam velit cumque possimus distinctio facere sapiente assumenda
@@ -66,34 +66,42 @@
         </div>
       </section>
 
-      <section class="products">
-        <div class="row">
-          <h2>Products</h2>
-          <figure class="image__wrapper">
-            <img class="section__image" src="./First Shoes.png" />
-          </figure>
-          <p>
-            Starting out with only a single pair of running shoes created for
-            track, the brand now has thousands of different pairs all ranging
-            from uniquely built basketball sneaker solely for athlets, to
-            lifestyle shoes meant for everyday wear.
-          </p>
-          <figure class="image__wrapper">
-            <img class="section__image" src="./AF1.pmg.jpeg" />
-          </figure>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            veritatis nisi eligendi quae asperiores possimus! Eligendi, aliquid
-            explicabo! Asperiores praesentium quisquam dolore saepe laudantium
-            placeat dignissimos mollitia doloribus! Quis, quae!
-          </p>
+      <section id="products">
+        <h2>Products</h2>
+        <div class="row products__row">
+          <div class="section__description--wrapper">
+            <figure class="image__wrapper piw">
+              <img class="section--image" src="./First Shoes.png" />
+            </figure>
+            <p
+              class="section__description--para products__section__description--para"
+            >
+              Starting out with only a single pair of running shoes created for
+              track, the brand now has thousands of different pairs all ranging
+              from uniquely built basketball sneaker solely for athlets, to
+              lifestyle shoes meant for everyday wear.
+            </p>
+          </div>
+          <div class="section__description--wrapper">
+            <figure class="image__wrapper piw">
+              <img class="section--image" src="./AF1.pmg.jpeg" />
+            </figure>
+            <p
+              class="section__description--para products__section__description--para"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              veritatis nisi eligendi quae asperiores possimus! Eligendi,
+              aliquid explicabo! Asperiores praesentium quisquam dolore saepe
+              laudantium placeat dignissimos mollitia doloribus! Quis, quae!
+            </p>
+          </div>
         </div>
       </section>
 
-      <section class="contact">
-        <div class="row">
-          <h2>Contact</h2>
-          <figure class="image__wrapper">
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="row contact__row">
+          <figure class="image__wrapper ciw">
             <img class="section__image" src="./footer__nike--logo.png" />
           </figure>
           <form>
@@ -110,7 +118,7 @@
       </section>
 
       <footer>
-        <figure class="logo__wrapper">
+        <figure class="logo__wrapper flw">
           <img class="footer__image" src="./Logo_NIKE.svg.png" />
         </figure>
       </footer>
