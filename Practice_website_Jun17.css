@@ -163,7 +163,7 @@ FOOTER
 
 */
 
-footer{
+footer {
   background-color: #aaf5ff;
   display: flex;
   flex-direction: column;
@@ -181,4 +181,32 @@ footer{
 
 .footer__link {
   padding: 0 16px;
+}
+
+/* SMALL PHONES, TABLETS, LARGE PHONES */
+@media (max-width: 728px) {
+  .row {
+    flex-direction: column;
+  }
+  .home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .p_header {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .home__description--button {
+    font-size: 20px;
+    max-width: 240px;
+  }
 }
